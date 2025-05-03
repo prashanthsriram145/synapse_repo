@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "CREATE TABLE DimCustomer\n(\n\tID             INT,\n\tTitle\t       NVARCHAR(10),\n\tFirstName      NVARCHAR(100),\n\tMiddleName     NVARCHAR(100),\n\tLastName       NVARCHAR(100),\n\tSuffix\t       NVARCHAR(100),\n\tCompanyName    NVARCHAR(200),\n\tSalesPerson    NVARCHAR(200),\n\tEmailAddress   NVARCHAR(100),\n\tPhone\t       NVARCHAR(100)\n)\n\nselect * from DimCustomer;",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "TaxiRidesWarehouse",
+				"poolName": "TaxiRidesWarehouse"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
